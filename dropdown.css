@@ -1,0 +1,120 @@
+.page{margin:20px;}
+.dropdown_btn {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: #0071BD;
+    color: #fff;
+    text-decoration: none;
+    z-index: 99
+}
+.dd_ctrl_group {
+   position: relative;
+}
+.dd_contents {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    width: 150px;
+    display: none;
+    z-index: 101;
+    overflow-y:auto;
+    height:94px;
+    border-radius: 4px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dd_contents ul li {
+    cursor: default;
+    padding: 2px 5px;
+    color: #0071BD;
+}
+.dd_contents ul li label {
+    cursor: default;
+    width: 100%;
+    display: block;
+}
+.dd_contents_menu{
+    background-color: #fff;
+    color: #000000;
+    padding: 2px;
+    border: 0px solid #e1e1e1;
+    position: absolute;
+    width:200px;
+    border:1px solid #e1e1e1;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.71);
+    border-radius: 5px; 
+}
+.dd_contents ul li a{
+    text-decoration:none;
+}
+.dd_contents_menu ul li{
+    background: #fff url("images/add2.png") 4px 4px no-repeat;
+    padding:0;
+}
+.dd_contents_menu ul li a{
+    color:#333;
+    text-decoration:none;
+    display:block;	
+    padding:4px 5px 4px 10px;
+    font-size:14px;
+    border-left:1px solid #e0e0e0;
+    margin-left:28px;
+    cursor:default;
+}
+.input, .select {
+    border: 1px solid #CCCCCC;
+    color: #0071BD;
+    padding: 3px 22px 3px 3px;
+    vertical-align: middle;
+    width: 142px;
+    border-radius: 3px 3px 3px 3px;
+    background: url("images/dd_arrow.png") no-repeat scroll 145px center #FFFFFF;
+}
+.dd_contents ul li.li_hover, .dd_contents_menu ul li a.li_hover {
+    background-color: #3399ff;
+    color: #fff !important;
+    cursor: default;
+    border-radius: 2px;
+}
+.inputText_hover {
+    cursor: default
+}
+.ddTooltip {
+    background-color: #FFFACD;
+    border: 1px solid #999999;
+    color: #000000;
+    display: none;
+    padding: 2px;
+    position: absolute;
+    max-width: 400px;
+    z-index: 102;
+    left:0;
+    top:0;
+    white-space: nowrap;
+}
+.label_dd{
+    border:1px solid transparent;
+    padding:2px;
+    width:100%;
+    background: transparent;
+}
+.dd_btn{
+    background: #fff url("images/tabActive.jpg") repeat-x;
+    border:1px solid #ccc; 
+    cursor:default; 
+    border-radius:5px; 
+    padding: 2px
+}
+.icon {
+    border: none;
+    margin-left: 6px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+.table td {
+    padding: 8px 5px;
+    white-space: nowrap;
+}
